@@ -50,7 +50,7 @@ document.querySelector('.ass').addEventListener('click', function () {
         if (player1) {
             scores[0] = scores[0] + roundscore;
             document.querySelector('.two').textContent = scores[0];
-            if (scores[0] >= 20) {
+            if (scores[0] >= 100) {
                 document.querySelector('.PLAYER-1').textContent = 'WINNER!';
                 document.querySelector('#pani').style.display = 'none';
                 document.querySelector('#once').style.display = 'none';
@@ -67,7 +67,7 @@ document.querySelector('.ass').addEventListener('click', function () {
         else {
             scores[1] = scores[1] + roundscore;
             document.querySelector('#what').textContent = scores[1];
-            if (scores[1] >= 20) {
+            if (scores[1] >= 100) {
                 document.querySelector('.PLAYER-2').textContent = 'WINNER!';
                 document.querySelector('#pani').style.display = 'none';
                 document.querySelector('#once-1').style.display = 'none';

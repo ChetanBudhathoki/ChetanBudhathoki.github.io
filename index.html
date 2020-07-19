@@ -3,88 +3,132 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 
 <body>
 
-    <style>
 
-        .element{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-        .container {
-            border: 2px solid red;
-            height: 500px;
+    <!-- <style>
+        .wrapper{
+            height: 100vh;
             display: flex;
-            width: 1200px;
-            /* margin: auto; */
             align-items: center;
             justify-content: center;
         }
-        .fit{
-            border: 2px solid green;
-            /* max-height: 495px; */
-            /* margin: auto; */
-            /* position: absolute; */
-            align-items: center;
-            justify-content: center;
+        .outercontainer{
+            background-color: grey;
+            height: 80vh;
+            width: 80%;
+            margin:auto;
+            display: flex;
+            /* align-items: center; */
+        }
+        .innercontainer{
+            width: 50%;
+
+
+        }
+        .innercontainer-1{
+            background-color: hotpink;
+        }
+        .innercontainer-2{
+            background-color: indigo;
         }
 
-        .side {
-            border: 2px solid blue;
-            margin: 0px;
-            height: 495px;
-            width: 300px;
-            /* background-color: black; */
-            /* margin: auto; */
-            /* display: inline-block; */
-        }
-        #side-2{
-            width: 130px;
-            max-height: 495px;
-        }
-        .but{
-            border: 2px solid gold;
-        }
-        #but-1{
-            /* top: 67px; */
-        }
     </style>
     
+    <div class="wrapper">
 
+    
+    <div class="outercontainer">
+<div class="innercontainer-1 innercontainer">one</div>
+<div class="innercontainer-2 innercontainer">two</div>
+    </div>
+</div> -->
 
+    <div class="wrapper">
+        <div class="container">
+            <div class="innercontainer-1 innercontainer">
+                <div class="pannel-1 pannel">
+                    <div class="one PLAYER-1">
+                        PLAYER-1
+                    </div>
+                    <div class="one active" id="once">
+                        active
+                    </div>
+                </div>
+                <div class="pannel-2 pannel">
+                    <div class="two">
+                        SCORE
+                    </div>
+                </div>
+                <div class="pannel-3 pannel">
+                    <div class="current">
+                        <div class="three-1 three" id="pani-2">
+                            CURRENT SCORE
+                        </div>
+                        <div class="three-2 three">
+                            SCORE
+                        </div>
+                    </div>
 
-
-    <div class="container">
-
-        <div class="fit">
-            <div class="side" id="side-1">
-                <div class="player" id="playerone"></div>
-                <div class="score" id="scoreone"></div>
-                <div class="currentscore" id="currentscoreone"></div>
+                </div>
             </div>
-            <div class="side" id="side-2">
-                <a class="but" id="but-1">one</a>
-                <a class="but" id="but-2">two</a>
-                <a class="but" id="but-3">three</a>
-            </div>
+            <div class="innercontainer-2 innercontainer">
+                <div class="pannel-1 pannel">
+                    <div class="one PLAYER-2">
+                        PLAYER-2
+                    </div>
+                    <div class="one" id="once-1">
+                        active
+                    </div>
+                </div>
+                <div class="pannel-2 pannel">
+                    <div class="two" id="what">
+                        SCORE
+                    </div>
+                </div>
+                <div class="pannel-3 pannel">
+                    <div class="current">
+                        <div class="three-1 three" id="twat">
+                            CURRENT SCORE
+                        </div>
+                        <div class="three-2 three">
+                            SCORE
+                        </div>
+                    </div>
 
-            <!-- <button class="but" id="but-1">one</button>
-            <button class="but" id="but-2">two</button>
-            <button class="but" id="but-3">three</button> -->
-            <div class="side" id="side-3">
-                <div class="player" id="playerone"></div>
-                <div class="score" id="scoreone"></div>
-                <div class="currentscore" id="currentscoreone"></div>
+                </div>
+            </div>
+           
+
+        </div>
+        <div class="buttons">
+            <div class="but-1 button">
+                <button class="klk ass">HOLD</button>
+            </div>
+            <div class="but-2 button">
+                <button class="klk" id="pani-1">ROLL DICE</button>
+            </div>
+            <div class="but-3 button">
+            
+                <!-- <button class="klk">botom3</button> -->
+                <img class="klk-1 klk" id="pani" src="dice-5.png" alt="">
+            </div>
+            <div class="but-4 button">
+                <button class="klk dick">NEW GAME</button>
             </div>
         </div>
-
+    </div>
+    <!-- <button type="button" disabled>Click Me!</button> -->
     </div>
 
+    <script src="appy.js"></script>
 </body>
 
 </html>

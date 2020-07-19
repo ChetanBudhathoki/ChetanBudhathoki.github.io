@@ -1,7 +1,8 @@
 
     /* <style> */
     body{
-        background-color:#dde1e7;
+        /* background-color:#dde1e7; */
+        background-color: rgb(230, 225, 220);
     }
     .wrapper {
         display: flex;
@@ -9,6 +10,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
+       
     }
 
     .container {
@@ -20,6 +22,13 @@
         display: flex;
         /* position: relative; */
         /* align-items: center; */
+        background-color: rgb(230, 225, 220);
+        /* border: 2px solid red; */
+        /* box-shadow: -3px -3px 7px #ffffff73, 9px 3px 5px rgba(94, blue, alpha); */
+        box-shadow: 12px 10px 15px rgb(192, 183, 183),-10px -10px 11px #ffffff73;
+        border-radius: 11px;
+        font-family: 'Monoton', cursive;
+        font-size: large;
     }
 
     .innercontainer {
@@ -35,11 +44,11 @@
         /* background-color: indianred; */
         /* background-color:rgb(134, 75, 134); */
         /* background-color:#dde1e7; */
-        background-color: grey;
+        /* background-color: grey; */
         text-align: center;
         display: flex;
         flex-direction: column;
-        box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, , blue, alpha);
+        box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, blue, alpha);
     }
 
     .pannel {
@@ -64,6 +73,7 @@
         justify-content: center;
         align-items: center;
         margin: 1px;
+        box-shadow: 12px 10px 15px rgb(192, 183, 183),-10px -10px 11px #ffffff73;
 
 
 
@@ -82,6 +92,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        box-shadow: 12px 10px 15px rgb(192, 183, 183),-10px -10px 11px #ffffff73;
 
     }
 
@@ -98,6 +109,7 @@
         /* margin: 1px; */
         /* position: absolute; */
         /* top: 10px; */
+        /* box-shadow: 12px 10px 15px rgb(192, 183, 183),-10px -10px 11px #ffffff73; */
     }
 
     #once {
@@ -107,7 +119,7 @@
     #once-1{
         width: 10%;
         height: 10%; 
-        background-color:azure;
+        /* background-color:azure; */
         color: chocolate;
     }
 
@@ -120,11 +132,11 @@
         /* background-color: indianred */
         /* background-color: rgb(235, 219, 219); */
         /* background-color: rgb(182, 174, 174); */
-        background-color: grey;
+        /* background-color: grey; */
         text-align: center;
         display: flex;
         flex-direction: column;
-        box-shadow: -3px -3px 7px pink, 3px 3px 5px plum; 
+        /* box-shadow: -3px -3px 7px pink, 3px 3px 5px plum;  */
     }
 
     .pannel {
@@ -236,7 +248,7 @@
     }
 
     .active{
-        background-color:azure;
+        /* background-color:azure; */
         color: chocolate;
     }
 /* </style> */
