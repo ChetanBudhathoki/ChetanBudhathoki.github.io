@@ -3,13 +3,16 @@
     body{
         /* background-color:#dde1e7; */
         background-color: rgb(230, 225, 220);
+        /* background-color: black; */
+
     }
     .wrapper {
         display: flex;
         height: 100vh;
         align-items: center;
         justify-content: center;
-        position: relative;
+        /* position: relative; */
+        /* border: 2px solid red; */
        
     }
 
@@ -20,7 +23,7 @@
         height: 70vh;
         width: 60%;
         display: flex;
-        /* position: relative; */
+        position: relative;
         /* align-items: center; */
         background-color: rgb(230, 225, 220);
         /* border: 2px solid red; */
@@ -68,7 +71,8 @@
     .one {
         /* background-color: mediumspringgreen; */
         height: 30%;
-        width: 30%;
+        width: 37%;
+        border-radius: 21px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -196,20 +200,21 @@
         /* top: 10px */
     }
 
-
+/* 
     .buttons {
         background-color: chartreuse;
         position: absolute; 
-        /* left: 370px; */
+        left: 370px
         position: relative;
+        border: 2px solid red;
     
     }
 
     .button {
-        /* background-color: coral; */
+        background-color: coral
         margin: 1px;
         
-        /* position: absolute; */
+        position: absolute
     }
     .but-1{
         position: absolute;
@@ -226,25 +231,94 @@
     .but-3{
         position: absolute;
         right: 370px;
-        /* top: 0px; */
+        top: 0px
         bottom: 45px;
        
     }
     .but-4{
         position: absolute;
         right: 370px;
-        /* top: 0px; */
+        top: 0px
         bottom: 190px;
+       
+    } */
+
+    .buttons {
+       
+        width: 0;
+    
+    }
+
+    .button {
+        /* background-color: coral; */
+        margin: 1px;
+        
+        /* position: absolute; */
+    }
+    .but-1{
+       
+        position: absolute;
+        top: 82%;
+        right: 50%;
+        width: 9%;
+    }
+       
+    
+    .but-2{
+        
+        position: absolute;
+    top: 72%;
+    right: 50%;
+    width: 9%;
+       
+    }
+    .but-3{
+       
+        position: absolute;
+    top: 35%;
+    right: 45%;
+    width: 11%;
+       
+    }
+    .but-4{
+        
+        position: absolute;
+        top: 3%;
+        right: 50%;
+        width: 9%;
        
     }
     
     .klk{
         height: 35px;
+        width: 196%;
     }
+    
+
     .klk-1{
         height: 65px;
         width: 65px;
         border: 2px solid blue;
+        position: relative;
+        animation-name:dice;
+        animation-duration: 3s;
+        animation-iteration-count:1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes dice{
+        0%{
+          top: 0;  
+          left: 0px;
+        }
+        50%{
+            top: 130px;
+            left: 0px;
+
+        }
+        75%{
+            top: 130px;
+            top: 130px;
+        }
     }
 
     .active{
